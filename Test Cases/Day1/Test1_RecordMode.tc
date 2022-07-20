@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>this is a demo test</description>
+   <name>Test1_RecordMode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae756be6-c598-4ac4-8062-e499413bd98e</testCaseGuid>
+</TestCaseEntity>
