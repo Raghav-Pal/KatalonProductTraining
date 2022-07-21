@@ -21,23 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+WebUI.setText(findTestObject('Object Repository/WEB/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/WEB/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Admin'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_OrangeHRM/b_Admin'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Recruitment'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_OrangeHRM/b_Recruitment'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Directory'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_OrangeHRM/b_Directory'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/input_People who like this post_MP_link'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/WEB/Page_OrangeHRM/input_People who like this post_MP_link'), '')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome ramya'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_OrangeHRM/a_Welcome ramya'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_OrangeHRM/a_Logout'))
 
 WebUI.closeBrowser()
 

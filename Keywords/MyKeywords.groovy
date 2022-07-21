@@ -34,10 +34,10 @@ public class MyKeywords {
 	
 	@Keyword
 	def login(String username, String password) {
-		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
-		WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), username)
-		WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), password)
-		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+		WebUI.click(findTestObject('Object Repository/WEB/Page_CURA Healthcare Service/a_Make Appointment'))
+		WebUI.setText(findTestObject('Object Repository/WEB/Page_CURA Healthcare Service/input_Username_username'), username)
+		WebUI.setEncryptedText(findTestObject('Object Repository/WEB/Page_CURA Healthcare Service/input_Password_password'), password)
+		WebUI.click(findTestObject('Object Repository/WEB/Page_CURA Healthcare Service/button_Login'))
 	}
 	
 }
