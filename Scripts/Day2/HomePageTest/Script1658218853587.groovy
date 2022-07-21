@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CommonTests/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Admin'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_OrangeHRM/b_Admin'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_OrangeHRM/input_People who like this post_MP_link'))
+WebUI.rightClick(findTestObject('Object Repository/WEB/Page_OrangeHRM/input_People who like this post_MP_link'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/input_People who like this post_MP_link'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/WEB/Page_OrangeHRM/input_People who like this post_MP_link'), '')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Directory'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_OrangeHRM/b_Directory'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome ramya'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_OrangeHRM/a_Welcome ramya'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
+WebUI.click(findTestObject('Object Repository/WEB/Page_OrangeHRM/a_Logout'))
 
